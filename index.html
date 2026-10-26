@@ -1591,4 +1591,3192 @@ renderProducts();
 </script>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ZIA Perfume & Cosmetics Peshawar | Official Website</title>
+
+<meta name="description" content="Discover ZIA Perfume & Cosmetics, a premium wholesale dealer of imported perfumes and personal-care products in Pipal Mandi, Peshawar, Pakistan.">
+  <meta name="google-site-verification" content="tTGKpl9tIq7n-049c19n80a56pEzYi38VOWZUDwX_9o" />
+
+<style>
+:root {
+  --black: #090909;
+  --panel: #121212;
+  --gold: #c6a45b;
+  --gold-light: #e6ce91;
+  --ivory: #f4efe5;
+  --muted: #aaa49a;
+  --border: rgba(198,164,91,.25);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--black);
+  color: var(--ivory);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+button, input {
+  font: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: min(1180px, 92%);
+  margin: auto;
+}
+
+.gold {
+  color: var(--gold-light);
+}
+
+/* ANNOUNCEMENT */
+
+.announcement {
+  background: var(--gold);
+  color: #100e09;
+  text-align: center;
+  padding: 9px 12px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/* HEADER */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(9,9,9,.96);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav {
+  min-height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--gold);
+  color: var(--gold-light);
+  display: grid;
+  place-items: center;
+  font-family: Georgia, serif;
+  font-size: 23px;
+  letter-spacing: -2px;
+}
+
+.brand-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  line-height: 1.3;
+}
+
+.brand-sub {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  color: var(--gold);
+  letter-spacing: 3px;
+  margin-top: 4px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  font-size: 12px;
+  color: #d0cbc1;
+}
+
+.nav-links a:hover {
+  color: var(--gold-light);
+}
+
+.nav-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.outline-btn, .gold-btn, .dark-btn {
+  border: 1px solid var(--gold);
+  padding: 11px 16px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: .25s;
+}
+
+.outline-btn, .dark-btn {
+  color: var(--gold-light);
+  background: transparent;
+}
+
+.gold-btn {
+  background: var(--gold);
+  color: #100e09;
+}
+
+.outline-btn:hover, .gold-btn:hover, .dark-btn:hover {
+  background: var(--gold-light);
+  color: #090909;
+}
+
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--gold-light);
+  padding: 8px 12px;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 590px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background:
+    linear-gradient(90deg, rgba(8,8,8,.98) 0%, rgba(8,8,8,.88) 47%, rgba(8,8,8,.18) 100%),
+    url("https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1800&q=85")
+    center 42% / cover no-repeat;
+}
+
+.hero-content {
+  width: min(650px, 100%);
+  padding: 80px 0;
+}
+
+.eyebrow {
+  color: var(--gold-light);
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: clamp(43px, 7vw, 78px);
+  line-height: 1.08;
+  letter-spacing: -1px;
+}
+
+.hero h1 span {
+  color: var(--gold-light);
+  font-style: italic;
+}
+
+.hero p {
+  color: #d0cbc1;
+  max-width: 460px;
+  margin: 23px 0 30px;
+  font-size: 14px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-note {
+  margin-top: 42px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  max-width: 440px;
+  color: #c4bdb0;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+/* BRAND STRIP */
+
+.brand-strip {
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px 4%;
+  text-align: center;
+  gap: 15px;
+}
+
+.strip-item {
+  color: var(--gold-light);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.strip-item span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: .3px;
+  margin-top: 5px;
+}
+
+/* GENERAL SECTIONS */
+
+section.content-section {
+  padding: 80px 0;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.section-heading .eyebrow {
+  margin-bottom: 10px;
+}
+
+.section-heading h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(30px, 4vw, 45px);
+  font-weight: normal;
+}
+
+.section-heading p {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+/* SEARCH */
+
+.search-wrap {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  display: flex;
+  border: 1px solid var(--border);
+  background: #111;
+}
+
+.search-wrap input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.search-wrap button {
+  border: none;
+  background: var(--gold);
+  color: #111;
+  padding: 0 18px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* CATEGORY FILTERS */
+
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 35px;
+}
+
+.filter-btn {
+  background: transparent;
+  color: #c9c1b5;
+  border: 1px solid #35312a;
+  padding: 10px 15px;
+  font-size: 11px;
+  transition: .2s;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background: var(--gold);
+  color: #111;
+  border-color: var(--gold);
+}
+
+/* PRODUCT CARDS */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.product-card {
+  background: var(--panel);
+  border: 1px solid #25221d;
+  transition: transform .25s, border-color .25s;
+  min-width: 0;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--gold);
+}
+
+.product-image {
+  height: 230px;
+  position: relative;
+  background: #1b1915;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform .4s;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.product-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(9,9,9,.85);
+  color: var(--gold-light);
+  padding: 5px 8px;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.product-info {
+  padding: 17px;
+}
+
+.product-category {
+  color: var(--gold);
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.product-info h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 19px;
+  margin: 7px 0;
+}
+
+.product-info p {
+  color: var(--muted);
+  font-size: 12px;
+  min-height: 38px;
+}
+
+.product-bottom {
+  border-top: 1px solid #302a20;
+  margin-top: 15px;
+  padding-top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.price {
+  color: var(--gold-light);
+  font-size: 11px;
+}
+
+.add-btn {
+  background: transparent;
+  color: var(--gold-light);
+  border: 1px solid var(--gold);
+  padding: 8px 10px;
+  font-size: 10px;
+}
+
+.add-btn:hover {
+  background: var(--gold);
+  color: #111;
+}
+
+.no-products {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px 10px;
+  color: var(--muted);
+}
+
+/* ABOUT */
+
+.about-section {
+  background: #10100f;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  align-items: center;
+}
+
+.about-image {
+  min-height: 390px;
+  background:
+    linear-gradient(0deg, rgba(0,0,0,.15), rgba(0,0,0,.15)),
+    url("https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1100&q=85")
+    center / cover no-repeat;
+  border: 1px solid var(--border);
+}
+
+.about-copy h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: clamp(32px, 4vw, 46px);
+  line-height: 1.2;
+}
+
+.about-copy p {
+  color: #bcb6aa;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.about-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+  margin: 28px 0;
+}
+
+.about-point {
+  border-left: 2px solid var(--gold);
+  padding-left: 12px;
+  color: var(--gold-light);
+  font-size: 12px;
+}
+
+.about-point span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+/* CONTACT */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.contact-card {
+  border: 1px solid var(--border);
+  background: #111;
+  padding: 28px;
+}
+
+.contact-card h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.contact-card p {
+  color: #c0b9ac;
+  font-size: 13px;
+  margin: 12px 0;
+}
+
+.contact-card a:not(.gold-btn):hover {
+  color: var(--gold-light);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 40px 0 20px;
+  background: #070707;
+  border-top: 1px solid var(--border);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-copy {
+  max-width: 390px;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  font-size: 11px;
+  color: #c7c0b4;
+}
+
+.footer-bottom {
+  border-top: 1px solid #27231d;
+  padding-top: 17px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  color: #888177;
+  font-size: 10px;
+}
+
+/* MODALS */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0,0,0,.82);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-box {
+  background: #111;
+  border: 1px solid var(--gold);
+  width: min(460px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 27px;
+  position: relative;
+}
+
+.modal-box h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 29px;
+  font-weight: normal;
+  padding-right: 25px;
+}
+
+.modal-box > p {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 8px 0 20px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 17px;
+  top: 15px;
+  background: transparent;
+  border: none;
+  color: var(--gold-light);
+  font-size: 25px;
+}
+
+.contact-choice {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #191816;
+  border: 1px solid #393126;
+  color: var(--ivory);
+  padding: 15px;
+  margin-top: 10px;
+  transition: .2s;
+}
+
+.contact-choice:hover {
+  border-color: var(--gold);
+  background: #211d15;
+}
+
+.contact-choice strong {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.contact-choice span {
+  display: block;
+  color: var(--gold-light);
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.cart-list {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #302a20;
+  font-size: 13px;
+}
+
+.cart-item small {
+  display: block;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.remove-btn {
+  background: transparent;
+  color: #d4b77b;
+  border: none;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.cart-empty {
+  color: var(--muted);
+  padding: 15px 0;
+  font-size: 13px;
+}
+
+.modal-full-btn {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.cart-count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  margin-left: 5px;
+  border-radius: 20px;
+  background: #111;
+  color: var(--gold-light);
+  font-size: 10px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 950px) {
+  .nav-links {
+    gap: 13px;
+  }
+
+  .products {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .product-image {
+    height: 210px;
+  }
+}
+
+@media (max-width: 720px) {
+  .nav {
+    min-height: 72px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  .brand-name {
+    font-size: 15px;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    order: 3;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding-bottom: 8px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    border-top: 1px solid #28231b;
+  }
+
+  .nav-actions .outline-btn {
+    display: none;
+  }
+
+  .hero {
+    min-height: 520px;
+    background-position: 60% center;
+  }
+
+  .hero-content {
+    padding: 60px 0;
+  }
+
+  section.content-section {
+    padding: 60px 0;
+  }
+
+  .products {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .product-image {
+    height: 190px;
+  }
+
+  .product-info {
+    padding: 12px;
+  }
+
+  .product-info h3 {
+    font-size: 17px;
+  }
+
+  .product-info p {
+    font-size: 11px;
+  }
+
+  .about-grid, .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .about-image {
+    min-height: 290px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 390px) {
+  .brand-sub {
+    letter-spacing: 1.7px;
+    font-size: 8px;
+  }
+
+  .nav-actions .gold-btn {
+    padding: 9px 10px;
+    font-size: 10px;
+  }
+
+  .product-image {
+    height: 155px;
+  }
+
+  .product-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .brand-strip {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .strip-item {
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="announcement">
+  ZIA PERFUME & COSMETICS &nbsp; | &nbsp; PREMIUM IMPORTED COLLECTION
+</div>
+
+<header>
+  <div class="container nav">
+
+    <a href="#home" class="brand" aria-label="ZIA Perfume & Cosmetics home">
+      <div class="brand-mark">ZIA</div>
+      <div class="brand-name">
+        ZIA
+        <span class="brand-sub">PERFUME & COSMETICS</span>
+      </div>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">HOME</a>
+      <a href="#collection">COLLECTION</a>
+      <a href="#about">OUR STORY</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="outline-btn" onclick="openContactModal()">
+        WHATSAPP
+      </button>
+      <button class="gold-btn" onclick="openCart()">
+        BAG <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+
+      <div class="eyebrow">A World of Fragrance & Care</div>
+
+      <h1>
+        Luxury in<br>
+        Every <span>Detail.</span>
+      </h1>
+
+      <p>
+        Discover a carefully selected collection of imported fragrances
+        and personal-care essentials, brought together under the name
+        ZIA Perfume & Cosmetics.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#collection" class="gold-btn">EXPLORE COLLECTION</a>
+        <button class="dark-btn" onclick="openContactModal()">
+          CONTACT OUR TEAM
+        </button>
+      </div>
+
+      <div class="hero-note">
+        WHOLESALE DEALER &nbsp; · &nbsp; PIPAL MANDI, PESHAWAR
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- BRAND VALUES -->
+
+<div class="brand-strip">
+  <div class="strip-item">
+    SELECTED IMPORTS
+    <span>Imported product collection</span>
+  </div>
+
+  <div class="strip-item">
+    WHOLESALE DEALER
+    <span>Ask our team about availability</span>
+  </div>
+
+  <div class="strip-item">
+    PERSONAL CARE
+    <span>Fragrance, hair and skincare</span>
+  </div>
+</div>
+
+<!-- COLLECTION -->
+
+<section class="content-section" id="collection">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">The ZIA Selection</div>
+      <h2>Explore Our <span class="gold">Collection</span></h2>
+      <p>Find your favourites and add them to your shopping bag.</p>
+    </div>
+
+    <div class="search-wrap">
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Search perfumes, shampoo, serum..."
+        aria-label="Search products"
+      >
+      <button onclick="renderProducts()">SEARCH</button>
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-category="All">ALL PRODUCTS</button>
+      <button class="filter-btn" data-category="Perfumes">PERFUMES</button>
+      <button class="filter-btn" data-category="Body Care">BODY CARE</button>
+      <button class="filter-btn" data-category="Hair Care">HAIR CARE</button>
+      <button class="filter-btn" data-category="Skin Care">SKIN CARE</button>
+      <button class="filter-btn" data-category="Personal Care">PERSONAL CARE</button>
+    </div>
+
+    <div class="products" id="products"></div>
+
+    <p style="text-align:center;color:#938b7e;font-size:11px;margin-top:25px;">
+      Product pictures are illustrative. Contact us to confirm actual stock,
+      brand, size and price.
+    </p>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+
+<section class="content-section about-section" id="about">
+  <div class="container about-grid">
+
+    <div class="about-image" role="img" aria-label="Perfume bottles"></div>
+
+    <div class="about-copy">
+      <div class="eyebrow">The ZIA Identity</div>
+
+      <h2>
+        A Premium Name.<br>
+        A <span class="gold">Personal Touch.</span>
+      </h2>
+
+      <p>
+        ZIA Perfume & Cosmetics is a wholesale dealer based in Pipal Mandi,
+        Peshawar. Our business focuses on imported fragrances and a broad
+        selection of personal-care products.
+      </p>
+
+      <p>
+        Our aim is to make it easier for customers and retailers to discover
+        suitable products and contact our team directly for availability
+        and wholesale enquiries.
+      </p>
+
+      <div class="about-points">
+        <div class="about-point">
+          Imported Collection
+          <span>Fragrances and everyday essentials</span>
+        </div>
+
+        <div class="about-point">
+          Wholesale Enquiries
+          <span>Speak with our team</span>
+        </div>
+
+        <div class="about-point">
+          Customer Support
+          <span>Ask before placing an order</span>
+        </div>
+
+        <div class="about-point">
+          Peshawar, Pakistan
+          <span>Visit our physical shop</span>
+        </div>
+      </div>
+
+      <button class="gold-btn" onclick="openContactModal()">
+        SPEAK WITH OUR TEAM
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section class="content-section" id="contact">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">We Are Here to Help</div>
+      <h2>Contact <span class="gold">ZIA</span></h2>
+      <p>For product availability, prices, and wholesale enquiries.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <h3>Visit Our Shop</h3>
+
+        <p>
+          <strong class="gold">Address</strong><br>
+          Shop 21–26, First Floor,<br>
+          Emarat Plaza, Pipal Mandi,<br>
+          Peshawar, Pakistan.
+        </p>
+
+        <p>
+          <strong class="gold">Telephone</strong><br>
+          <a href="tel:+92912562962">091 2562962</a>
+        </p>
+
+        <div class="contact-actions">
+          <a class="gold-btn"
+             href="https://www.google.com/maps/search/?api=1&query=Shop%2021-26%20First%20Floor%20Emarat%20Plaza%20Pipal%20Mandi%20Peshawar%20Pakistan"
+             target="_blank"
+             rel="noopener noreferrer">
+            OPEN SHOP LOCATION
+          </a>
+
+          <a class="dark-btn" href="tel:+92912562962">
+            CALL THE SHOP
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h3>Talk to Our Team</h3>
+
+        <p>
+          Choose your preferred contact for product enquiries and
+          wholesale ordering.
+        </p>
+
+        <div class="contact-actions">
+          <button class="gold-btn" onclick="openContactModal()">
+            CHOOSE WHATSAPP CONTACT
+          </button>
+        </div>
+
+        <p style="font-size:11px;margin-top:20px;">
+          You can select Hamza, Iftikhar, or Manzoor when the contact
+          window opens.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="container">
+
+    <div class="footer-top">
+
+      <div>
+        <a href="#home" class="brand">
+          <div class="brand-mark">ZIA</div>
+          <div class="brand-name">
+            ZIA
+            <span class="brand-sub">PERFUME & COSMETICS</span>
+          </div>
+        </a>
+
+        <p class="footer-copy">
+          A premium destination for imported fragrances and personal-care
+          essentials. Wholesale dealer in Pipal Mandi, Peshawar, Pakistan.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">Our Story</a>
+        <a href="#contact">Contact</a>
+        <button class="remove-btn" onclick="openContactModal()">
+          WhatsApp Us
+        </button>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> ZIA Perfume & Cosmetics. All rights reserved.</span>
+      <span>PREMIUM STYLE. PERSONAL CARE.</span>
+    </div>
+
+  </div>
+</footer>
+
+<!-- WHATSAPP CONTACT SELECTION MODAL -->
+
+<div class="modal" id="contactModal" role="dialog"
+     aria-modal="true" aria-labelledby="contactModalTitle">
+
+  <div class="modal-box">
+    <button class="close-btn" onclick="closeContactModal()" aria-label="Close">
+      ×
+    </button>
+
+    <div class="eyebrow">ZIA Customer Support</div>
+
+    <h2 id="contactModalTitle">Who would you like to contact?</h2>
+
+    <p>
+      Choose one of our team members. WhatsApp will open with your
+      shopping bag details, if you have selected products.
+    </p>
+
+    <button class="contact-choice" onclick="sendWhatsApp('hamza')">
+      <strong>Contact Hamza</strong>
+      <span>0318 5305762</span>
+    </button>
+
+    <button class="contact-choice" onclick="sendWhatsApp('iftikhar')">
+      <strong>Contact Iftikhar</strong>
+      <span>0333 9239483</span>
+    </button>
+
+    <button class="contact-choice" onclick="sendWhatsApp('manzoor')">
+      <strong>Contact Manzoor</strong>
+      <span>0311 1919306</span>
+    </button>
+
+    <button class="dark-btn modal-full-btn" onclick="closeContactModal()">
+      CANCEL
+    </button>
+  </div>
+</div>
+
+<!-- SHOPPING BAG MODAL -->
+
+<div class="modal" id="cartModal" role="dialog"
+     aria-modal="true" aria-labelledby="cartTitle">
+
+  <div class="modal-box">
+    <button class="close-btn" onclick="closeCart()" aria-label="Close">
+      ×
+    </button>
+
+    <div class="eyebrow">Your Selection</div>
+    <h2 id="cartTitle">Shopping Bag</h2>
+
+    <p>Review your selected products before contacting our team.</p>
+
+    <ul class="cart-list" id="cartList"></ul>
+
+    <button class="gold-btn modal-full-btn" onclick="checkout()">
+      ORDER ON WHATSAPP
+    </button>
+
+    <button class="dark-btn modal-full-btn" onclick="closeCart()">
+      CONTINUE SHOPPING
+    </button>
+  </div>
+</div>
+
+<script>
+/*
+  ZIA PERFUME & COSMETICS
+  Premium storefront demo.
+
+  IMPORTANT:
+  Replace the sample product names and photos with your actual
+  inventory before publishing the website.
+*/
+
+const CONTACTS = {
+  hamza: {
+    name: "Hamza",
+    number: "923185305762"
+  },
+  iftikhar: {
+    name: "Iftikhar",
+    number: "923339239483"
+  },
+  manzoor: {
+    name: "Manzoor",
+    number: "923111919306"
+  }
+};
+
+const productsData = [
+  {
+    id: 1,
+    name: "Signature Perfume",
+    category: "Perfumes",
+    description: "Explore our imported fragrance collection.",
+    tag: "FRAGRANCE",
+    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 2,
+    name: "Luxury Fragrance",
+    category: "Perfumes",
+    description: "Ask our team about available fragrances.",
+    tag: "COLLECTION",
+    image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 3,
+    name: "Body Mist",
+    category: "Body Care",
+    description: "Discover body mists in our collection.",
+    tag: "BODY CARE",
+    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 4,
+    name: "Body Spray",
+    category: "Body Care",
+    description: "Ask about available imported body sprays.",
+    tag: "DAILY ESSENTIAL",
+    image: "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 5,
+    name: "Shampoo",
+    category: "Hair Care",
+    description: "Hair-care products for everyday routines.",
+    tag: "HAIR CARE",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 6,
+    name: "Conditioner",
+    category: "Hair Care",
+    description: "Ask our team which options are in stock.",
+    tag: "HAIR CARE",
+    image: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 7,
+    name: "Face Serum",
+    category: "Skin Care",
+    description: "Explore the face-serum selection.",
+    tag: "SKIN CARE",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 8,
+    name: "Face Cream",
+    category: "Skin Care",
+    description: "Ask about available skincare products.",
+    tag: "SKIN CARE",
+    image: "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 9,
+    name: "Deodorant",
+    category: "Personal Care",
+    description: "Browse our available deodorants.",
+    tag: "PERSONAL CARE",
+    image: "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 10,
+    name: "Talcum Powder",
+    category: "Personal Care",
+    description: "Ask our team about available brands and sizes.",
+    tag: "PERSONAL CARE",
+    image: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 11,
+    name: "Soap",
+    category: "Personal Care",
+    description: "Everyday personal-care essentials.",
+    tag: "DAILY ESSENTIAL",
+    image: "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 12,
+    name: "Hair Colour",
+    category: "Hair Care",
+    description: "Ask us about available hair-colour products.",
+    tag: "HAIR CARE",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=80"
+  }
+];
+
+let activeCategory = "All";
+let cart = [];
+
+function renderProducts() {
+  const holder = document.getElementById("products");
+  const search = document.getElementById("searchInput").value
+    .trim()
+    .toLowerCase();
+
+  const filtered = productsData.filter(product => {
+    const matchesCategory =
+      activeCategory === "All" ||
+      product.category === activeCategory;
+
+    const matchesSearch = (
+      product.name + " " +
+      product.category + " " +
+      product.description
+    ).toLowerCase().includes(search);
+
+    return matchesCategory && matchesSearch;
+  });
+
+  if (filtered.length === 0) {
+    holder.innerHTML =
+      '<div class="no-products">No matching products. Try another search.</div>';
+    return;
+  }
+
+  holder.innerHTML = filtered.map(product => `
+    <article class="product-card">
+      <div class="product-image">
+        <img
+          src="${product.image}"
+          alt="${product.name}"
+          loading="lazy"
+          onerror="this.style.display='none';"
+        >
+        <span class="product-tag">${product.tag}</span>
+      </div>
+
+      <div class="product-info">
+        <div class="product-category">${product.category}</div>
+        <h3>${product.name}</h3>
+        <p>${product.description}</p>
+
+        <div class="product-bottom">
+          <span class="price">ASK FOR PRICE</span>
+          <button class="add-btn" onclick="addToCart(${product.id})">
+            + ADD TO BAG
+          </button>
+        </div>
+      </div>
+    </article>
+  `).join("");
+}
+
+document.getElementById("filters").addEventListener("click", event => {
+  const button = event.target.closest("[data-category]");
+  if (!button) return;
+
+  activeCategory = button.dataset.category;
+
+  document.querySelectorAll(".filter-btn").forEach(item => {
+    item.classList.toggle("active", item === button);
+  });
+
+  renderProducts();
+});
+
+document.getElementById("searchInput").addEventListener("input", renderProducts);
+
+function addToCart(id) {
+  const product = productsData.find(item => item.id === id);
+  if (!product) return;
+
+  const existing = cart.find(item => item.id === id);
+
+  if (existing) {
+    existing.quantity += 1;
+  } else {
+    cart.push({
+      id: product.id,
+      name: product.name,
+      quantity: 1
+    });
+  }
+
+  updateCartCount();
+
+  const button = document.activeElement;
+  if (button && button.classList.contains("add-btn")) {
+    const oldText = button.textContent;
+    button.textContent = "ADDED ✓";
+    setTimeout(() => {
+      button.textContent = oldText;
+    }, 900);
+  }
+}
+
+function updateCartCount() {
+  const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+  document.getElementById("cartCount").textContent = count;
+}
+
+function renderCart() {
+  const list = document.getElementById("cartList");
+
+  if (cart.length === 0) {
+    list.innerHTML =
+      '<li class="cart-empty">Your shopping bag is empty. Add products from the collection first.</li>';
+    return;
+  }
+
+  list.innerHTML = cart.map(item => `
+    <li class="cart-item">
+      <div>
+        ${item.name}
+        <small>Quantity: ${item.quantity} · Price confirmed by our team</small>
+      </div>
+      <button class="remove-btn" onclick="removeFromCart(${item.id})">
+        REMOVE
+      </button>
+    </li>
+  `).join("");
+}
+
+function removeFromCart(id) {
+  cart = cart.filter(item => item.id !== id);
+  updateCartCount();
+  renderCart();
+}
+
+function openCart() {
+  renderCart();
+  document.getElementById("cartModal").classList.add("show");
+}
+
+function closeCart() {
+  document.getElementById("cartModal").classList.remove("show");
+}
+
+function checkout() {
+  if (cart.length === 0) {
+    alert("Your shopping bag is empty. Please add a product first.");
+    return;
+  }
+
+  closeCart();
+  openContactModal();
+}
+
+function openContactModal() {
+  document.getElementById("contactModal").classList.add("show");
+}
+
+function closeContactModal() {
+  document.getElementById("contactModal").classList.remove("show");
+}
+
+function sendWhatsApp(person) {
+  const contact = CONTACTS[person];
+
+  if (!contact) {
+    alert("Please select a valid contact.");
+    return;
+  }
+
+  let message =
+    "Assalam-o-Alaikum " + contact.name + ",\n\n" +
+    "I am contacting you through the ZIA Perfume & Cosmetics website.\n\n";
+
+  if (cart.length > 0) {
+    message += "My product enquiry:\n";
+
+    cart.forEach(item => {
+      message += "- " + item.name +
+        " (Quantity: " + item.quantity + ")\n";
+    });
+
+    message += "\nPlease confirm availability and wholesale prices.\n\n";
+  } else {
+    message += "I would like to enquire about your available products and prices.\n\n";
+  }
+
+  message +=
+    "Thank you.\n" +
+    "ZIA Perfume & Cosmetics";
+
+  const whatsappURL =
+    "https://wa.me/" + contact.number +
+    "?text=" + encodeURIComponent(message);
+
+  window.open(whatsappURL, "_blank", "noopener,noreferrer");
+  closeContactModal();
+}
+
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("open");
+}
+
+document.querySelectorAll("#navLinks a").forEach(link => {
+  link.addEventListener("click", () => {
+    document.getElementById("navLinks").classList.remove("open");
+  });
+});
+
+document.querySelectorAll(".modal").forEach(modal => {
+  modal.addEventListener("click", event => {
+    if (event.target === modal) {
+      modal.classList.remove("show");
+    }
+  });
+});
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape") {
+    document.querySelectorAll(".modal").forEach(modal => {
+      modal.classList.remove("show");
+    });
+  }
+});
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+renderProducts();
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ZIA Perfume & Cosmetics Peshawar | Official Website</title>
+
+<meta name="description" content="Discover ZIA Perfume & Cosmetics, a premium wholesale dealer of imported perfumes and personal-care products in Pipal Mandi, Peshawar, Pakistan.">
+  <meta name="google-site-verification" content="tTGKpl9tIq7n-049c19n80a56pEzYi38VOWZUDwX_9o" />
+
+<style>
+:root {
+  --black: #090909;
+  --panel: #121212;
+  --gold: #c6a45b;
+  --gold-light: #e6ce91;
+  --ivory: #f4efe5;
+  --muted: #aaa49a;
+  --border: rgba(198,164,91,.25);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--black);
+  color: var(--ivory);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+button, input {
+  font: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: min(1180px, 92%);
+  margin: auto;
+}
+
+.gold {
+  color: var(--gold-light);
+}
+
+/* ANNOUNCEMENT */
+
+.announcement {
+  background: var(--gold);
+  color: #100e09;
+  text-align: center;
+  padding: 9px 12px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/* HEADER */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(9,9,9,.96);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav {
+  min-height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--gold);
+  color: var(--gold-light);
+  display: grid;
+  place-items: center;
+  font-family: Georgia, serif;
+  font-size: 23px;
+  letter-spacing: -2px;
+}
+
+.brand-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  line-height: 1.3;
+}
+
+.brand-sub {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  color: var(--gold);
+  letter-spacing: 3px;
+  margin-top: 4px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  font-size: 12px;
+  color: #d0cbc1;
+}
+
+.nav-links a:hover {
+  color: var(--gold-light);
+}
+
+.nav-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.outline-btn, .gold-btn, .dark-btn {
+  border: 1px solid var(--gold);
+  padding: 11px 16px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: .25s;
+}
+
+.outline-btn, .dark-btn {
+  color: var(--gold-light);
+  background: transparent;
+}
+
+.gold-btn {
+  background: var(--gold);
+  color: #100e09;
+}
+
+.outline-btn:hover, .gold-btn:hover, .dark-btn:hover {
+  background: var(--gold-light);
+  color: #090909;
+}
+
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--gold-light);
+  padding: 8px 12px;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 590px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background:
+    linear-gradient(90deg, rgba(8,8,8,.98) 0%, rgba(8,8,8,.88) 47%, rgba(8,8,8,.18) 100%),
+    url("https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1800&q=85")
+    center 42% / cover no-repeat;
+}
+
+.hero-content {
+  width: min(650px, 100%);
+  padding: 80px 0;
+}
+
+.eyebrow {
+  color: var(--gold-light);
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: clamp(43px, 7vw, 78px);
+  line-height: 1.08;
+  letter-spacing: -1px;
+}
+
+.hero h1 span {
+  color: var(--gold-light);
+  font-style: italic;
+}
+
+.hero p {
+  color: #d0cbc1;
+  max-width: 460px;
+  margin: 23px 0 30px;
+  font-size: 14px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-note {
+  margin-top: 42px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  max-width: 440px;
+  color: #c4bdb0;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+/* BRAND STRIP */
+
+.brand-strip {
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px 4%;
+  text-align: center;
+  gap: 15px;
+}
+
+.strip-item {
+  color: var(--gold-light);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.strip-item span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: .3px;
+  margin-top: 5px;
+}
+
+/* GENERAL SECTIONS */
+
+section.content-section {
+  padding: 80px 0;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.section-heading .eyebrow {
+  margin-bottom: 10px;
+}
+
+.section-heading h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(30px, 4vw, 45px);
+  font-weight: normal;
+}
+
+.section-heading p {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+/* SEARCH */
+
+.search-wrap {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  display: flex;
+  border: 1px solid var(--border);
+  background: #111;
+}
+
+.search-wrap input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.search-wrap button {
+  border: none;
+  background: var(--gold);
+  color: #111;
+  padding: 0 18px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* CATEGORY FILTERS */
+
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 35px;
+}
+
+.filter-btn {
+  background: transparent;
+  color: #c9c1b5;
+  border: 1px solid #35312a;
+  padding: 10px 15px;
+  font-size: 11px;
+  transition: .2s;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background: var(--gold);
+  color: #111;
+  border-color: var(--gold);
+}
+
+/* PRODUCT CARDS */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.product-card {
+  background: var(--panel);
+  border: 1px solid #25221d;
+  transition: transform .25s, border-color .25s;
+  min-width: 0;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--gold);
+}
+
+.product-image {
+  height: 230px;
+  position: relative;
+  background: #1b1915;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform .4s;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.product-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(9,9,9,.85);
+  color: var(--gold-light);
+  padding: 5px 8px;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.product-info {
+  padding: 17px;
+}
+
+.product-category {
+  color: var(--gold);
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.product-info h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 19px;
+  margin: 7px 0;
+}
+
+.product-info p {
+  color: var(--muted);
+  font-size: 12px;
+  min-height: 38px;
+}
+
+.product-bottom {
+  border-top: 1px solid #302a20;
+  margin-top: 15px;
+  padding-top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.price {
+  color: var(--gold-light);
+  font-size: 11px;
+}
+
+.add-btn {
+  background: transparent;
+  color: var(--gold-light);
+  border: 1px solid var(--gold);
+  padding: 8px 10px;
+  font-size: 10px;
+}
+
+.add-btn:hover {
+  background: var(--gold);
+  color: #111;
+}
+
+.no-products {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px 10px;
+  color: var(--muted);
+}
+
+/* ABOUT */
+
+.about-section {
+  background: #10100f;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  align-items: center;
+}
+
+.about-image {
+  min-height: 390px;
+  background:
+    linear-gradient(0deg, rgba(0,0,0,.15), rgba(0,0,0,.15)),
+    url("https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1100&q=85")
+    center / cover no-repeat;
+  border: 1px solid var(--border);
+}
+
+.about-copy h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: clamp(32px, 4vw, 46px);
+  line-height: 1.2;
+}
+
+.about-copy p {
+  color: #bcb6aa;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.about-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+  margin: 28px 0;
+}
+
+.about-point {
+  border-left: 2px solid var(--gold);
+  padding-left: 12px;
+  color: var(--gold-light);
+  font-size: 12px;
+}
+
+.about-point span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+/* CONTACT */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.contact-card {
+  border: 1px solid var(--border);
+  background: #111;
+  padding: 28px;
+}
+
+.contact-card h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.contact-card p {
+  color: #c0b9ac;
+  font-size: 13px;
+  margin: 12px 0;
+}
+
+.contact-card a:not(.gold-btn):hover {
+  color: var(--gold-light);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 40px 0 20px;
+  background: #070707;
+  border-top: 1px solid var(--border);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-copy {
+  max-width: 390px;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  font-size: 11px;
+  color: #c7c0b4;
+}
+
+.footer-bottom {
+  border-top: 1px solid #27231d;
+  padding-top: 17px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  color: #888177;
+  font-size: 10px;
+}
+
+/* MODALS */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0,0,0,.82);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-box {
+  background: #111;
+  border: 1px solid var(--gold);
+  width: min(460px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 27px;
+  position: relative;
+}
+
+.modal-box h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 29px;
+  font-weight: normal;
+  padding-right: 25px;
+}
+
+.modal-box > p {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 8px 0 20px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 17px;
+  top: 15px;
+  background: transparent;
+  border: none;
+  color: var(--gold-light);
+  font-size: 25px;
+}
+
+.contact-choice {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #191816;
+  border: 1px solid #393126;
+  color: var(--ivory);
+  padding: 15px;
+  margin-top: 10px;
+  transition: .2s;
+}
+
+.contact-choice:hover {
+  border-color: var(--gold);
+  background: #211d15;
+}
+
+.contact-choice strong {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.contact-choice span {
+  display: block;
+  color: var(--gold-light);
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.cart-list {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #302a20;
+  font-size: 13px;
+}
+
+.cart-item small {
+  display: block;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.remove-btn {
+  background: transparent;
+  color: #d4b77b;
+  border: none;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.cart-empty {
+  color: var(--muted);
+  padding: 15px 0;
+  font-size: 13px;
+}
+
+.modal-full-btn {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.cart-count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  margin-left: 5px;
+  border-radius: 20px;
+  background: #111;
+  color: var(--gold-light);
+  font-size: 10px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 950px) {
+  .nav-links {
+    gap: 13px;
+  }
+
+  .products {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .product-image {
+    height: 210px;
+  }
+}
+
+@media (max-width: 720px) {
+  .nav {
+    min-height: 72px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  .brand-name {
+    font-size: 15px;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    order: 3;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding-bottom: 8px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    border-top: 1px solid #28231b;
+  }
+
+  .nav-actions .outline-btn {
+    display: none;
+  }
+
+  .hero {
+    min-height: 520px;
+    background-position: 60% center;
+  }
+
+  .hero-content {
+    padding: 60px 0;
+  }
+
+  section.content-section {
+    padding: 60px 0;
+  }
+
+  .products {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .product-image {
+    height: 190px;
+  }
+
+  .product-info {
+    padding: 12px;
+  }
+
+  .product-info h3 {
+    font-size: 17px;
+  }
+
+  .product-info p {
+    font-size: 11px;
+  }
+
+  .about-grid, .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .about-image {
+    min-height: 290px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 390px) {
+  .brand-sub {
+    letter-spacing: 1.7px;
+    font-size: 8px;
+  }
+
+  .nav-actions .gold-btn {
+    padding: 9px 10px;
+    font-size: 10px;
+  }
+
+  .product-image {
+    height: 155px;
+  }
+
+  .product-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .brand-strip {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .strip-item {
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="announcement">
+  ZIA PERFUME & COSMETICS &nbsp; | &nbsp; PREMIUM IMPORTED COLLECTION
+</div>
+
+<header>
+  <div class="container nav">
+
+    <a href="#home" class="brand" aria-label="ZIA Perfume & Cosmetics home">
+      <div class="brand-mark">ZIA</div>
+      <div class="brand-name">
+        ZIA
+        <span class="brand-sub">PERFUME & COSMETICS</span>
+      </div>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">HOME</a>
+      <a href="#collection">COLLECTION</a>
+      <a href="#about">OUR STORY</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="outline-btn" onclick="openContactModal()">
+        WHATSAPP
+      </button>
+      <button class="gold-btn" onclick="openCart()">
+        BAG <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+
+      <div class="eyebrow">A World of Fragrance & Care</div>
+
+      <h1>
+        Luxury in<br>
+        Every <span>Detail.</span>
+      </h1>
+
+      <p>
+        Discover a carefully selected collection of imported fragrances
+        and personal-care essentials, brought together under the name
+        ZIA Perfume & Cosmetics.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#collection" class="gold-btn">EXPLORE COLLECTION</a>
+        <button class="dark-btn" onclick="openContactModal()">
+          CONTACT OUR TEAM
+        </button>
+      </div>
+
+      <div class="hero-note">
+        WHOLESALE DEALER &nbsp; · &nbsp; PIPAL MANDI, PESHAWAR
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- BRAND VALUES -->
+
+<div class="brand-strip">
+  <div class="strip-item">
+    SELECTED IMPORTS
+    <span>Imported product collection</span>
+  </div>
+
+  <div class="strip-item">
+    WHOLESALE DEALER
+    <span>Ask our team about availability</span>
+  </div>
+
+  <div class="strip-item">
+    PERSONAL CARE
+    <span>Fragrance, hair and skincare</span>
+  </div>
+</div>
+
+<!-- COLLECTION -->
+
+<section class="content-section" id="collection">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">The ZIA Selection</div>
+      <h2>Explore Our <span class="gold">Collection</span></h2>
+      <p>Find your favourites and add them to your shopping bag.</p>
+    </div>
+
+    <div class="search-wrap">
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Search perfumes, shampoo, serum..."
+        aria-label="Search products"
+      >
+      <button onclick="renderProducts()">SEARCH</button>
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-category="All">ALL PRODUCTS</button>
+      <button class="filter-btn" data-category="Perfumes">PERFUMES</button>
+      <button class="filter-btn" data-category="Body Care">BODY CARE</button>
+      <button class="filter-btn" data-category="Hair Care">HAIR CARE</button>
+      <button class="filter-btn" data-category="Skin Care">SKIN CARE</button>
+      <button class="filter-btn" data-category="Personal Care">PERSONAL CARE</button>
+    </div>
+
+    <div class="products" id="products"></div>
+
+    <p style="text-align:center;color:#938b7e;font-size:11px;margin-top:25px;">
+      Product pictures are illustrative. Contact us to confirm actual stock,
+      brand, size and price.
+    </p>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+
+<section class="content-section about-section" id="about">
+  <div class="container about-grid">
+
+    <div class="about-image" role="img" aria-label="Perfume bottles"></div>
+
+    <div class="about-copy">
+      <div class="eyebrow">The ZIA Identity</div>
+
+      <h2>
+        A Premium Name.<br>
+        A <span class="gold">Personal Touch.</span>
+      </h2>
+
+      <p>
+        ZIA Perfume & Cosmetics is a wholesale dealer based in Pipal Mandi,
+        Peshawar. Our business focuses on imported fragrances and a broad
+        selection of personal-care products.
+      </p>
+
+      <p>
+        Our aim is to make it easier for customers and retailers to discover
+        suitable products and contact our team directly for availability
+        and wholesale enquiries.
+      </p>
+
+      <div class="about-points">
+        <div class="about-point">
+          Imported Collection
+          <span>Fragrances and everyday essentials</span>
+        </div>
+
+        <div class="about-point">
+          Wholesale Enquiries
+          <span>Speak with our team</span>
+        </div>
+
+        <div class="about-point">
+          Customer Support
+          <span>Ask before placing an order</span>
+        </div>
+
+        <div class="about-point">
+          Peshawar, Pakistan
+          <span>Visit our physical shop</span>
+        </div>
+      </div>
+
+      <button class="gold-btn" onclick="openContactModal()">
+        SPEAK WITH OUR TEAM
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section class="content-section" id="contact">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">We Are Here to Help</div>
+      <h2>Contact <span class="gold">ZIA</span></h2>
+      <p>For product availability, prices, and wholesale enquiries.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <h3>Visit Our Shop</h3>
+
+        <p>
+          <strong class="gold">Address</strong><br>
+          Shop 21–26, First Floor,<br>
+          Emarat Plaza, Pipal Mandi,<br>
+          Peshawar, Pakistan.
+        </p>
+
+        <p>
+          <strong class="gold">Telephone</strong><br>
+          <a href="tel:+92912562962">091 2562962</a>
+        </p>
+
+        <div class="contact-actions">
+          <a class="gold-btn"
+             href="https://www.google.com/maps/search/?api=1&query=Shop%2021-26%20First%20Floor%20Emarat%20Plaza%20Pipal%20Mandi%20Peshawar%20Pakistan"
+             target="_blank"
+             rel="noopener noreferrer">
+            OPEN SHOP LOCATION
+          </a>
+
+          <a class="dark-btn" href="tel:+92912562962">
+            CALL THE SHOP
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h3>Talk to Our Team</h3>
+
+        <p>
+          Choose your preferred contact for product enquiries and
+          wholesale ordering.
+        </p>
+
+        <div class="contact-actions">
+          <button class="gold-btn" onclick="openContactModal()">
+            CHOOSE WHATSAPP CONTACT
+          </button>
+        </div>
+
+        <p style="font-size:11px;margin-top:20px;">
+          You can select Hamza, Iftikhar, or Manzoor when the contact
+          window opens.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="container">
+
+    <div class="footer-top">
+
+      <div>
+        <a href="#home" class="brand">
+          <div class="brand-mark">ZIA</div>
+          <div class="brand-name">
+            ZIA
+            <span class="brand-sub">PERFUME & COSMETICS</span>
+          </div>
+        </a>
+
+        <p class="footer-copy">
+          A premium destination for imported fragrances and personal-care
+          essentials. Wholesale dealer in Pipal Mandi, Peshawar, Pakistan.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">Our Story</a>
+        <a href="#contact">Contact</a>
+        <button class="remove-btn" onclick="openContactModal()">
+          WhatsApp Us
+        </button>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> ZIA Perfume & Cosmetics. All rights reserved.</span>
+      <span>PREMIUM STYLE. PERSONAL CARE.</span>
+    </div>
+
+  </div>
+</footer>
+
+<!-- WHATSAPP CONTACT SELECTION MODAL -->
+
+<div class="modal" id="contactModal" role="dialog"
+     aria-modal="true" aria-labelledby="contactModalTitle">
+
+  <div class="modal-box">
+    <button class="close-btn" onclick="closeContactModal()" aria-label="Close">
+      ×
+    </button>
+
+    <div class="eyebrow">ZIA Customer Support</div>
+
+    <h2 id="contactModalTitle">Who would you like to contact?</h2>
+
+    <p>
+      Choose one of our team members. WhatsApp will open with your
+      shopping bag details, if you have selected products.
+    </p>
+
+    <button class="contact-choice" onclick="sendWhatsApp('hamza')">
+      <strong>Contact Hamza</strong>
+      <span>0318 5305762</span>
+    </button>
+
+    <button class="contact-choice" onclick="sendWhatsApp('iftikhar')">
+      <strong>Contact Iftikhar</strong>
+      <span>0333 9239483</span>
+    </button>
+
+    <button class="contact-choice" onclick="sendWhatsApp('manzoor')">
+      <strong>Contact Manzoor</strong>
+      <span>0311 1919306</span>
+    </button>
+
+    <button class="dark-btn modal-full-btn" onclick="closeContactModal()">
+      CANCEL
+    </button>
+  </div>
+</div>
+
+<!-- SHOPPING BAG MODAL -->
+
+<div class="modal" id="cartModal" role="dialog"
+     aria-modal="true" aria-labelledby="cartTitle">
+
+  <div class="modal-box">
+    <button class="close-btn" onclick="closeCart()" aria-label="Close">
+      ×
+    </button>
+
+    <div class="eyebrow">Your Selection</div>
+    <h2 id="cartTitle">Shopping Bag</h2>
+
+    <p>Review your selected products before contacting our team.</p>
+
+    <ul class="cart-list" id="cartList"></ul>
+
+    <button class="gold-btn modal-full-btn" onclick="checkout()">
+      ORDER ON WHATSAPP
+    </button>
+
+    <button class="dark-btn modal-full-btn" onclick="closeCart()">
+      CONTINUE SHOPPING
+    </button>
+  </div>
+</div>
+
+<script>
+/*
+  ZIA PERFUME & COSMETICS
+  Premium storefront demo.
+
+  IMPORTANT:
+  Replace the sample product names and photos with your actual
+  inventory before publishing the website.
+*/
+
+const CONTACTS = {
+  hamza: {
+    name: "Hamza",
+    number: "923185305762"
+  },
+  iftikhar: {
+    name: "Iftikhar",
+    number: "923339239483"
+  },
+  manzoor: {
+    name: "Manzoor",
+    number: "923111919306"
+  }
+};
+
+const productsData = [
+  {
+    id: 1,
+    name: "Signature Perfume",
+    category: "Perfumes",
+    description: "Explore our imported fragrance collection.",
+    tag: "FRAGRANCE",
+    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 2,
+    name: "Luxury Fragrance",
+    category: "Perfumes",
+    description: "Ask our team about available fragrances.",
+    tag: "COLLECTION",
+    image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 3,
+    name: "Body Mist",
+    category: "Body Care",
+    description: "Discover body mists in our collection.",
+    tag: "BODY CARE",
+    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 4,
+    name: "Body Spray",
+    category: "Body Care",
+    description: "Ask about available imported body sprays.",
+    tag: "DAILY ESSENTIAL",
+    image: "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 5,
+    name: "Shampoo",
+    category: "Hair Care",
+    description: "Hair-care products for everyday routines.",
+    tag: "HAIR CARE",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 6,
+    name: "Conditioner",
+    category: "Hair Care",
+    description: "Ask our team which options are in stock.",
+    tag: "HAIR CARE",
+    image: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 7,
+    name: "Face Serum",
+    category: "Skin Care",
+    description: "Explore the face-serum selection.",
+    tag: "SKIN CARE",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 8,
+    name: "Face Cream",
+    category: "Skin Care",
+    description: "Ask about available skincare products.",
+    tag: "SKIN CARE",
+    image: "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 9,
+    name: "Deodorant",
+    category: "Personal Care",
+    description: "Browse our available deodorants.",
+    tag: "PERSONAL CARE",
+    image: "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 10,
+    name: "Talcum Powder",
+    category: "Personal Care",
+    description: "Ask our team about available brands and sizes.",
+    tag: "PERSONAL CARE",
+    image: "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 11,
+    name: "Soap",
+    category: "Personal Care",
+    description: "Everyday personal-care essentials.",
+    tag: "DAILY ESSENTIAL",
+    image: "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 12,
+    name: "Hair Colour",
+    category: "Hair Care",
+    description: "Ask us about available hair-colour products.",
+    tag: "HAIR CARE",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=80"
+  }
+];
+
+let activeCategory = "All";
+let cart = [];
+
+function renderProducts() {
+  const holder = document.getElementById("products");
+  const search = document.getElementById("searchInput").value
+    .trim()
+    .toLowerCase();
+
+  const filtered = productsData.filter(product => {
+    const matchesCategory =
+      activeCategory === "All" ||
+      product.category === activeCategory;
+
+    const matchesSearch = (
+      product.name + " " +
+      product.category + " " +
+      product.description
+    ).toLowerCase().includes(search);
+
+    return matchesCategory && matchesSearch;
+  });
+
+  if (filtered.length === 0) {
+    holder.innerHTML =
+      '<div class="no-products">No matching products. Try another search.</div>';
+    return;
+  }
+
+  holder.innerHTML = filtered.map(product => `
+    <article class="product-card">
+      <div class="product-image">
+        <img
+          src="${product.image}"
+          alt="${product.name}"
+          loading="lazy"
+          onerror="this.style.display='none';"
+        >
+        <span class="product-tag">${product.tag}</span>
+      </div>
+
+      <div class="product-info">
+        <div class="product-category">${product.category}</div>
+        <h3>${product.name}</h3>
+        <p>${product.description}</p>
+
+        <div class="product-bottom">
+          <span class="price">ASK FOR PRICE</span>
+          <button class="add-btn" onclick="addToCart(${product.id})">
+            + ADD TO BAG
+          </button>
+        </div>
+      </div>
+    </article>
+  `).join("");
+}
+
+document.getElementById("filters").addEventListener("click", event => {
+  const button = event.target.closest("[data-category]");
+  if (!button) return;
+
+  activeCategory = button.dataset.category;
+
+  document.querySelectorAll(".filter-btn").forEach(item => {
+    item.classList.toggle("active", item === button);
+  });
+
+  renderProducts();
+});
+
+document.getElementById("searchInput").addEventListener("input", renderProducts);
+
+function addToCart(id) {
+  const product = productsData.find(item => item.id === id);
+  if (!product) return;
+
+  const existing = cart.find(item => item.id === id);
+
+  if (existing) {
+    existing.quantity += 1;
+  } else {
+    cart.push({
+      id: product.id,
+      name: product.name,
+      quantity: 1
+    });
+  }
+
+  updateCartCount();
+
+  const button = document.activeElement;
+  if (button && button.classList.contains("add-btn")) {
+    const oldText = button.textContent;
+    button.textContent = "ADDED ✓";
+    setTimeout(() => {
+      button.textContent = oldText;
+    }, 900);
+  }
+}
+
+function updateCartCount() {
+  const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+  document.getElementById("cartCount").textContent = count;
+}
+
+function renderCart() {
+  const list = document.getElementById("cartList");
+
+  if (cart.length === 0) {
+    list.innerHTML =
+      '<li class="cart-empty">Your shopping bag is empty. Add products from the collection first.</li>';
+    return;
+  }
+
+  list.innerHTML = cart.map(item => `
+    <li class="cart-item">
+      <div>
+        ${item.name}
+        <small>Quantity: ${item.quantity} · Price confirmed by our team</small>
+      </div>
+      <button class="remove-btn" onclick="removeFromCart(${item.id})">
+        REMOVE
+      </button>
+    </li>
+  `).join("");
+}
+
+function removeFromCart(id) {
+  cart = cart.filter(item => item.id !== id);
+  updateCartCount();
+  renderCart();
+}
+
+function openCart() {
+  renderCart();
+  document.getElementById("cartModal").classList.add("show");
+}
+
+function closeCart() {
+  document.getElementById("cartModal").classList.remove("show");
+}
+
+function checkout() {
+  if (cart.length === 0) {
+    alert("Your shopping bag is empty. Please add a product first.");
+    return;
+  }
+
+  closeCart();
+  openContactModal();
+}
+
+function openContactModal() {
+  document.getElementById("contactModal").classList.add("show");
+}
+
+function closeContactModal() {
+  document.getElementById("contactModal").classList.remove("show");
+}
+
+function sendWhatsApp(person) {
+  const contact = CONTACTS[person];
+
+  if (!contact) {
+    alert("Please select a valid contact.");
+    return;
+  }
+
+  let message =
+    "Assalam-o-Alaikum " + contact.name + ",\n\n" +
+    "I am contacting you through the ZIA Perfume & Cosmetics website.\n\n";
+
+  if (cart.length > 0) {
+    message += "My product enquiry:\n";
+
+    cart.forEach(item => {
+      message += "- " + item.name +
+        " (Quantity: " + item.quantity + ")\n";
+    });
+
+    message += "\nPlease confirm availability and wholesale prices.\n\n";
+  } else {
+    message += "I would like to enquire about your available products and prices.\n\n";
+  }
+
+  message +=
+    "Thank you.\n" +
+    "ZIA Perfume & Cosmetics";
+
+  const whatsappURL =
+    "https://wa.me/" + contact.number +
+    "?text=" + encodeURIComponent(message);
+
+  window.open(whatsappURL, "_blank", "noopener,noreferrer");
+  closeContactModal();
+}
+
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("open");
+}
+
+document.querySelectorAll("#navLinks a").forEach(link => {
+  link.addEventListener("click", () => {
+    document.getElementById("navLinks").classList.remove("open");
+  });
+});
+
+document.querySelectorAll(".modal").forEach(modal => {
+  modal.addEventListener("click", event => {
+    if (event.target === modal) {
+      modal.classList.remove("show");
+    }
+  });
+});
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape") {
+    document.querySelectorAll(".modal").forEach(modal => {
+      modal.classList.remove("show");
+    });
+  }
+});
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+renderProducts();
+</script>
+</body>
+</html>
+
+
+
+
+
 
